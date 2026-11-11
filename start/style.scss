@@ -1,0 +1,16 @@
+$brand-primary: #0d6efd;
+$radius-base: 8px;
+$shadow-card: 0 2px 8px rgba(0, 0, 0, 0.15);
+$shadow-card-hover: 0 6px 16px rgba(0, 0, 0, 0.25);
+
+@mixin tema($bg, $testo, $card-bg, $bordo, $muted) {
+  body {
+    background-color: $bg;
+    color: $testo;
+  }
+
+  .card {
+    background-color: $card-bg;
+    border-color: $bordo;
+  }
+}
